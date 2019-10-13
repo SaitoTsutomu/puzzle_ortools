@@ -1,7 +1,16 @@
-﻿Solving a puzzle by optimization.
-======
+﻿Solving a puzzle by [OR-Tools](https://developers.google.com/optimization/cp/cp_solver).
+==========================================
 
-数理最適化で解ける様々なパズル
+OR-Tools CP-SATで解ける様々なパズル
+
+## 実行
+
+```
+docker build -t puzzle_ortools .
+docker run -it --rm -p 8000:8888 puzzle_ortools
+```
+
+ブラウザで`localhost:8000`を開いて、`scientist`を入力する。
 
 カックロ | ののぐらむ | 美術館 | ナンバーリンク | 覆面算
 --|--|--|--|--
