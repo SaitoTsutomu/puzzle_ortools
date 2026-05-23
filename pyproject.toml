@@ -1,0 +1,13 @@
+[project]
+dependencies = [
+  "amplpy>=0.16.0",
+  "jupyter>=1.1.1",
+  "mip[highs,numpy]>=1.17.6",
+  "ortoolpy>=0.9.0",
+  "pulp>=3.3.1",
+]
+description = "Add your description here"
+name = "tsutomu-puzzle-ortools"
+readme = "README.md"
+requires-python = ">=3.14"
+version = "0.1.0"
